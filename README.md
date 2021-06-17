@@ -1,6 +1,6 @@
 # App HTTP Client
 
-![Coverage][coverage-badge]
+![Coverage][coverage-badge] [![style: very good analysis](https://img.shields.io/badge/style-very_good_analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
 App HTTP Client is a wrapper around the HTTP library Dio to make network requests and error handling simpler, more predictable, and less verbose. 
 
@@ -64,7 +64,7 @@ dev_dependencies:
   test: ^1.16.0
   test_coverage: ^0.5.0
   mocktail: ^0.1.4
-  very_good_analysis: ^2.1.1
+  very_good_analysis: ^2.1.2
 ```
 
 Make sure you've removed the `pedantic` development dependency from `pubspec.yaml` that Dart automatically adds when you create a new project.
